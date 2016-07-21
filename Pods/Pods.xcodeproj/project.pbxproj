@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C6D46F153441877A285AA81DEF74BD /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E0036A83839C8D7C01620BFBAD163 /* UIButton.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1088F7A22C88DCCF0E90E72747043996 /* SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D415E57F14E50FCB04D7504404D36 /* SwiftyTimer-dummy.m */; };
+		1498D9260D42661358473C4A77F17FB0 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C232428C7EF4DEF3C2181EEE4A6C1 /* Protocols.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1B2202E45F38C51CA52DCE61F6B5A12E /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBCF22EBB031630AB165F7FFA9D85F /* UISwitch.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1DC6309464B4ECD707DE50F7384BC7D2 /* RawStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135E388950D37F2F72B8340484C5780 /* RawStream.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2CC8C5DF2A674C4A042DE8ECE99F9B18 /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73E794F88B219A720C5557CAD22927A /* UINavigationItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		34D6E1DC4816259619C26EA48E6C2D00 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24D54986973BFC63D37331BE833F56 /* UIBarButtonItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		38772B11C5709E6E0C91B4C2486FB190 /* ReactiveUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BF527F880ED015052991E5CABA23FA /* ReactiveUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B0FE2AD55104EA981FC8D740467ACD /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7A7A6166479A0A462B21E339EAF3D /* UITextField.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3990BD484007B8D3252CB0A9AD3DE52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82E10745D736088B712A6C35321C00 /* Foundation.framework */; };
+		3AD9B2AE155DD701B6F623E602E9DAA7 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEDCEB594C8038D90458D06D5F4F4CA /* UITableView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3B91163F08E88AF093F54F17B5B5B343 /* Pods-ReactiveKitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F69E320D34EAF52139248B41CAFE6A /* Pods-ReactiveKitDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCCC325EE1ADE542BC5F9E3DB19052B /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F50915F848A5F08DAA8440B270F678 /* UIControl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		471427CBC209F58CB803E39ADD33CDB6 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93102B819D27D0952DB3D21A9CCBB49C /* Operation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4823E11AB6D087B8881D34B5F941E49C /* ProtocolProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6365CD43D74B68ABB7E7684C6EF325 /* ProtocolProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4849F4348D8F5DA0F1D8A0191978A7E9 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = C708ECC77A7BEDC3820A3A20D825577B /* System.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4BBF6303F94B620CF01E72A9A86A60DB /* RKProtocolProxyBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 085640E1CCE6F588A32B3BF79E733694 /* RKProtocolProxyBase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		50515D2F5B3C18C622A6444E7F0B7392 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC30D9426A8944CA053B6ACAFADAE8B /* UILabel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		51EF2C37E7CCBFC5153CD514624AF17E /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB856FBFD359E43631C211BABE90B9 /* UIApplication.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5AAC9BE759E4242F93D3DB26222EF17A /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214A5704804ADEAD9B27A1D0F06EB4A /* UISegmentedControl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5C88E87E393A6C85658FAEF98F9BB29D /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93366BC23B9207CFE1A1889FF5C001C8 /* UICollectionView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5E9BD5A7FED4F3C69657CD36416627E4 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB193A60E42438C83229340E949587 /* Foundation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		608B8613699B02A8C01A6401F7CD237A /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C484CCCA700E112EED800BFF1E47583 /* Observer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		612552DECECBFFE63ADA25085725DCB8 /* UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1481739D0DDD6D953C0D4FD51AA601 /* UIProgressView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		663A6E9ABA7334201C1FA78046BABA0A /* ReactiveKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D18683D021D27194481DCA699684F9 /* ReactiveKit-dummy.m */; };
+		6D9F84E54B4AA389148B31FDBE1556EF /* ReactiveUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AEB9C353FC2B8E2A9252E83EE970EE /* ReactiveUIKit-dummy.m */; };
+		721A8269FB0C34185123B9D69F4D64BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82E10745D736088B712A6C35321C00 /* Foundation.framework */; };
+		767C9C0BFE7CD374FF386999030307A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82E10745D736088B712A6C35321C00 /* Foundation.framework */; };
+		794D96E4207F1B2F5B17F142267D286E /* UIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9413E17D46E9B3CF5D61133292E9F37 /* UIActivityIndicatorView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7CEE472B0F0A759B6773DE1F3CA7F8F4 /* CollectionProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DD635D6C5553CE43442274D8133B2 /* CollectionProperty.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		876D69A854263AEC798BEABF0E6A1827 /* RKProtocolProxyBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FCD6AABD0E3251F9098EF61857F0E /* RKProtocolProxyBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CEAB43B9222B57E324C6206FB2DB8B5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE86E8382D3F765EFC47F502BA006 /* Event.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9335C63AF33287AEFCB878A0FB53C7A3 /* SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC622263C7012C9F26A73CF4FCD8709 /* SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0EC54462B0812350C6436AE9379E969 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4A668A5A8ADBA1173DEE1E98C3B23 /* Stream.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8FF760A9ED09061100E73ED5D58F08C /* Pods-ReactiveKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 339444CFDBF469E02108E043F0C760AE /* Pods-ReactiveKitDemo-dummy.m */; };
+		AB15EBC89FE699866634F05457844B0C /* Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E291BC230CD8DBABB1451F74949F5C /* Subjects.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF330B81A9B035E6134FB33C3327CF18 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F6761F9E9C88D9291C62D41101BD92 /* UITextView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B1FFA8CA84E472FDBA0C8B38127D75B6 /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F35425B31AA78E5709F3315E2DF1BB /* SwiftyTimer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B4F8CAA14A9C103F87BD761F5E63C270 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8226D361D36E196DC0A32716A4A1001 /* UISlider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B6F5905D9EB281DFB1BED2EB91706483 /* ReactiveKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 917950DC8BAB2E6D7766307C85FF7D72 /* ReactiveKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3AF6DE5E690832D59CADF354814B8F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59B56BD7161CE0DF1030BC1BA520E3 /* Result.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C0B115964495D220CA3EE0D933B44483 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D934DC5007CC8668D138535CCC82C91 /* ReactiveKit.framework */; };
+		CCE5F7535AA04DD7F006EEEC89A0C1BF /* UIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B8DDE61A2B6378E43D52A458F5B9D /* UIBarItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D222B76425173B0BDF92487BE01107B4 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB475C93AE1BF5F90950DEE73346EA /* Property.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D499A8F168511D31AAF9867B9DB7FDB5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DA06F2958B631913C91AFCF3E0A4C /* UIView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5505494E16F08126784490A36E8B7A3 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A9E7A6FE8071985D3FCBBD68EB142 /* UIRefreshControl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5C67E8D9EBA2A4FA6581A595FF60863 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7826DF41BE52C0386ED4B213C927B07 /* Disposable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5E1AF24B4F4DE1F1BECFA0C691EE8FF /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF70743502CED4C8E1B6BB30339312FF /* UIImageView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DB151D4D57BFF5FCC940F15240475C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82E10745D736088B712A6C35321C00 /* Foundation.framework */; };
+		DC477A811EC78786F09E15F6D39471A4 /* ReactiveKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F3149DC216F05C8944647CAE46E539 /* ReactiveKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCB103A4FAE9DFDED1CE278E380A772E /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C22C9E5DD52EA4A798613505556DEF /* UIDatePicker.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EB3074848173A39D3AC68891700C7B08 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A88F7FF66F140730D1AB75FBB91EE2 /* Threading.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FC091BA4127B4469870997DE46BDE368 /* ReactiveUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0839F9AAB946A67ED02D2D40BD0A3D9 /* ReactiveUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1BED27752E909792370C6CC25940C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B718361A9007801897723B4726741197;
+			remoteInfo = ReactiveKit;
+		};
+		905B4F1E04C5201C62573F2805E37514 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30489CDE1348FA7A237C75F6B2B50B0;
+			remoteInfo = ReactiveUIKit;
+		};
+		A72DC6CA298EBDFDE753AA4671DA8136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F682E4228993A20C09155349F1D8809C;
+			remoteInfo = SwiftyTimer;
+		};
+		B2892AF6DB930DF76B72A4227803C891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B718361A9007801897723B4726741197;
+			remoteInfo = ReactiveKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0521163FFD7E772AEA53729B019987D0 /* Pods-ReactiveKitDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReactiveKitDemo-resources.sh"; sourceTree = "<group>"; };
+		059EF0D24D66C390BF08BC19882B4190 /* Pods-ReactiveKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReactiveKitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		06F50915F848A5F08DAA8440B270F678 /* UIControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIControl.swift; path = Sources/UIControl.swift; sourceTree = "<group>"; };
+		085640E1CCE6F588A32B3BF79E733694 /* RKProtocolProxyBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RKProtocolProxyBase.m; path = ReactiveKit/RKProtocolProxyBase.m; sourceTree = "<group>"; };
+		0A6301B502BCF9BEC3A08A33D7C26B5D /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AEB9C353FC2B8E2A9252E83EE970EE /* ReactiveUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactiveUIKit-dummy.m"; sourceTree = "<group>"; };
+		1C1481739D0DDD6D953C0D4FD51AA601 /* UIProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIProgressView.swift; path = Sources/UIProgressView.swift; sourceTree = "<group>"; };
+		1FC30D9426A8944CA053B6ACAFADAE8B /* UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Sources/UILabel.swift; sourceTree = "<group>"; };
+		20E1E13EE8C647B9DE3AA067D0997783 /* Pods-ReactiveKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactiveKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		238DA06F2958B631913C91AFCF3E0A4C /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Sources/UIView.swift; sourceTree = "<group>"; };
+		23F6761F9E9C88D9291C62D41101BD92 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextView.swift; path = Sources/UITextView.swift; sourceTree = "<group>"; };
+		25D18683D021D27194481DCA699684F9 /* ReactiveKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactiveKit-dummy.m"; sourceTree = "<group>"; };
+		2999C7E27D749D968E02F02A64F1D91A /* ReactiveUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveUIKit.xcconfig; sourceTree = "<group>"; };
+		312C6F847D0FFCAC4ACB40E366413BBD /* SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
+		3262B06F518AB539683F9E7A9F325764 /* Pods-ReactiveKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactiveKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		339444CFDBF469E02108E043F0C760AE /* Pods-ReactiveKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactiveKitDemo-dummy.m"; sourceTree = "<group>"; };
+		3C188882BCB07E31B3C252DEA624E9E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D934DC5007CC8668D138535CCC82C91 /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9DD635D6C5553CE43442274D8133B2 /* CollectionProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionProperty.swift; path = Sources/CollectionProperty.swift; sourceTree = "<group>"; };
+		49FB193A60E42438C83229340E949587 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/Foundation.swift; sourceTree = "<group>"; };
+		4BADE64C0676E903724E2D055E0DE8C9 /* ReactiveKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReactiveKit.modulemap; sourceTree = "<group>"; };
+		4C66F9ED5839758D309C8D898C813B96 /* ReactiveKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveKit-prefix.pch"; sourceTree = "<group>"; };
+		4F82E10745D736088B712A6C35321C00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5214A5704804ADEAD9B27A1D0F06EB4A /* UISegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISegmentedControl.swift; path = Sources/UISegmentedControl.swift; sourceTree = "<group>"; };
+		660C970C02ED8BFAA506D6CBE9FE673E /* SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTimer.xcconfig; sourceTree = "<group>"; };
+		69F35425B31AA78E5709F3315E2DF1BB /* SwiftyTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTimer.swift; path = Src/SwiftyTimer.swift; sourceTree = "<group>"; };
+		6AA7A7A6166479A0A462B21E339EAF3D /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = Sources/UITextField.swift; sourceTree = "<group>"; };
+		6D24D54986973BFC63D37331BE833F56 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItem.swift; path = Sources/UIBarButtonItem.swift; sourceTree = "<group>"; };
+		6D59B56BD7161CE0DF1030BC1BA520E3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		6EC622263C7012C9F26A73CF4FCD8709 /* SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
+		710FCD6AABD0E3251F9098EF61857F0E /* RKProtocolProxyBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RKProtocolProxyBase.h; path = ReactiveKit/RKProtocolProxyBase.h; sourceTree = "<group>"; };
+		71BBE86E8382D3F765EFC47F502BA006 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Sources/Event.swift; sourceTree = "<group>"; };
+		790F42342215EF056782976DAD3B63E3 /* Pods_ReactiveKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C484CCCA700E112EED800BFF1E47583 /* Observer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observer.swift; path = Sources/Observer.swift; sourceTree = "<group>"; };
+		7DEB856FBFD359E43631C211BABE90B9 /* UIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplication.swift; path = Sources/UIApplication.swift; sourceTree = "<group>"; };
+		812B3466E01E307BAB0EC38537571D98 /* ReactiveUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveUIKit-prefix.pch"; sourceTree = "<group>"; };
+		87E32825C8ED178BE0B91F6D89D574D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917950DC8BAB2E6D7766307C85FF7D72 /* ReactiveKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReactiveKit.h; path = ReactiveKit/ReactiveKit.h; sourceTree = "<group>"; };
+		93102B819D27D0952DB3D21A9CCBB49C /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Sources/Operation.swift; sourceTree = "<group>"; };
+		93366BC23B9207CFE1A1889FF5C001C8 /* UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionView.swift; path = Sources/UICollectionView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943151F4B319BD28CBAF96D3899B30A3 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CBCF22EBB031630AB165F7FFA9D85F /* UISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISwitch.swift; path = Sources/UISwitch.swift; sourceTree = "<group>"; };
+		A10B8DDE61A2B6378E43D52A458F5B9D /* UIBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarItem.swift; path = Sources/UIBarItem.swift; sourceTree = "<group>"; };
+		A135E388950D37F2F72B8340484C5780 /* RawStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RawStream.swift; path = Sources/RawStream.swift; sourceTree = "<group>"; };
+		A691B506B654D6921FA357344B08D2A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9C232428C7EF4DEF3C2181EEE4A6C1 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Sources/Protocols.swift; sourceTree = "<group>"; };
+		B0839F9AAB946A67ED02D2D40BD0A3D9 /* ReactiveUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveUIKit-umbrella.h"; sourceTree = "<group>"; };
+		B0F69E320D34EAF52139248B41CAFE6A /* Pods-ReactiveKitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactiveKitDemo-umbrella.h"; sourceTree = "<group>"; };
+		B70E0036A83839C8D7C01620BFBAD163 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Sources/UIButton.swift; sourceTree = "<group>"; };
+		B73E794F88B219A720C5557CAD22927A /* UINavigationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationItem.swift; path = Sources/UINavigationItem.swift; sourceTree = "<group>"; };
+		B9413E17D46E9B3CF5D61133292E9F37 /* UIActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIActivityIndicatorView.swift; path = Sources/UIActivityIndicatorView.swift; sourceTree = "<group>"; };
+		BB1E25E0C8BD2C8DB8961448E11B6DA6 /* ReactiveKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveKit.xcconfig; sourceTree = "<group>"; };
+		BF70743502CED4C8E1B6BB30339312FF /* UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = Sources/UIImageView.swift; sourceTree = "<group>"; };
+		C708ECC77A7BEDC3820A3A20D825577B /* System.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = System.swift; path = Sources/System.swift; sourceTree = "<group>"; };
+		CACB475C93AE1BF5F90950DEE73346EA /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Sources/Property.swift; sourceTree = "<group>"; };
+		D2F3149DC216F05C8944647CAE46E539 /* ReactiveKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveKit-umbrella.h"; sourceTree = "<group>"; };
+		D48D415E57F14E50FCB04D7504404D36 /* SwiftyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTimer-dummy.m"; sourceTree = "<group>"; };
+		D7826DF41BE52C0386ED4B213C927B07 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = Sources/Disposable.swift; sourceTree = "<group>"; };
+		DB323F512938AE5761E8073278B1D504 /* ReactiveUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReactiveUIKit.modulemap; sourceTree = "<group>"; };
+		E1AF955771722791749A89E80FED72C6 /* Pods-ReactiveKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactiveKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4C95273A5B3EE42DD824736C703B37C /* Pods-ReactiveKitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ReactiveKitDemo.modulemap"; sourceTree = "<group>"; };
+		E7E291BC230CD8DBABB1451F74949F5C /* Subjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subjects.swift; path = Sources/Subjects.swift; sourceTree = "<group>"; };
+		EB69A57106D9824E3FD0D39E9170457C /* ReactiveUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7C6F94CD37BE213EE85CE15316B0A5 /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
+		F0A88F7FF66F140730D1AB75FBB91EE2 /* Threading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Threading.swift; path = Sources/Threading.swift; sourceTree = "<group>"; };
+		F1C22C9E5DD52EA4A798613505556DEF /* UIDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDatePicker.swift; path = Sources/UIDatePicker.swift; sourceTree = "<group>"; };
+		F21BC1243B0B47A3576E72C930646A0F /* Pods-ReactiveKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactiveKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4BF527F880ED015052991E5CABA23FA /* ReactiveUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReactiveUIKit.h; path = ReactiveUIKit/ReactiveUIKit.h; sourceTree = "<group>"; };
+		F8226D361D36E196DC0A32716A4A1001 /* UISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISlider.swift; path = Sources/UISlider.swift; sourceTree = "<group>"; };
+		FB2A9E7A6FE8071985D3FCBBD68EB142 /* UIRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIRefreshControl.swift; path = Sources/UIRefreshControl.swift; sourceTree = "<group>"; };
+		FBB4A668A5A8ADBA1173DEE1E98C3B23 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Sources/Stream.swift; sourceTree = "<group>"; };
+		FC0C1F21A235AF3111DC978C02AA2262 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEDCEB594C8038D90458D06D5F4F4CA /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Sources/UITableView.swift; sourceTree = "<group>"; };
+		FE6365CD43D74B68ABB7E7684C6EF325 /* ProtocolProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtocolProxy.swift; path = Sources/ProtocolProxy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E58449B14561A53EFFFDBFF34B3AE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB151D4D57BFF5FCC940F15240475C87 /* Foundation.framework in Frameworks */,
+				C0B115964495D220CA3EE0D933B44483 /* ReactiveKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AF0216E3416A5815A4BB0C4D740B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767C9C0BFE7CD374FF386999030307A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9021ED48FDC8750D106396AB3257814A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721A8269FB0C34185123B9D69F4D64BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8732B1FCBE5D3AA1F897C5FF2FBB7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3990BD484007B8D3252CB0A9AD3DE52D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B920196CCD44F86928DC8A856D396DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E32825C8ED178BE0B91F6D89D574D6 /* Info.plist */,
+				DB323F512938AE5761E8073278B1D504 /* ReactiveUIKit.modulemap */,
+				2999C7E27D749D968E02F02A64F1D91A /* ReactiveUIKit.xcconfig */,
+				17AEB9C353FC2B8E2A9252E83EE970EE /* ReactiveUIKit-dummy.m */,
+				812B3466E01E307BAB0EC38537571D98 /* ReactiveUIKit-prefix.pch */,
+				B0839F9AAB946A67ED02D2D40BD0A3D9 /* ReactiveUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReactiveUIKit";
+			sourceTree = "<group>";
+		};
+		2471119EBE339EB7A6DF1782F120640B /* Pods-ReactiveKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A691B506B654D6921FA357344B08D2A3 /* Info.plist */,
+				E4C95273A5B3EE42DD824736C703B37C /* Pods-ReactiveKitDemo.modulemap */,
+				F21BC1243B0B47A3576E72C930646A0F /* Pods-ReactiveKitDemo-acknowledgements.markdown */,
+				E1AF955771722791749A89E80FED72C6 /* Pods-ReactiveKitDemo-acknowledgements.plist */,
+				339444CFDBF469E02108E043F0C760AE /* Pods-ReactiveKitDemo-dummy.m */,
+				059EF0D24D66C390BF08BC19882B4190 /* Pods-ReactiveKitDemo-frameworks.sh */,
+				0521163FFD7E772AEA53729B019987D0 /* Pods-ReactiveKitDemo-resources.sh */,
+				B0F69E320D34EAF52139248B41CAFE6A /* Pods-ReactiveKitDemo-umbrella.h */,
+				3262B06F518AB539683F9E7A9F325764 /* Pods-ReactiveKitDemo.debug.xcconfig */,
+				20E1E13EE8C647B9DE3AA067D0997783 /* Pods-ReactiveKitDemo.release.xcconfig */,
+			);
+			name = "Pods-ReactiveKitDemo";
+			path = "Target Support Files/Pods-ReactiveKitDemo";
+			sourceTree = "<group>";
+		};
+		66127BFEFCCF607A056664E4A263EA82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D934DC5007CC8668D138535CCC82C91 /* ReactiveKit.framework */,
+				E6227AC105FC3235D4624A1CAB3795EA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE2D47ED43E869074E8A41F8D4E11E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2471119EBE339EB7A6DF1782F120640B /* Pods-ReactiveKitDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				66127BFEFCCF607A056664E4A263EA82 /* Frameworks */,
+				8210A1BDBEF5DD68AC6EB00920329854 /* Pods */,
+				C5C16850455080467E106178CB5D6BA2 /* Products */,
+				6EE2D47ED43E869074E8A41F8D4E11E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8210A1BDBEF5DD68AC6EB00920329854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B386666364AFE33E1902A0D612CC7AC1 /* ReactiveKit */,
+				AB1446BDA929186939E3DF833D5D5DF2 /* ReactiveUIKit */,
+				CB2911322079E71C2545831EB034DE3A /* SwiftyTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB1446BDA929186939E3DF833D5D5DF2 /* ReactiveUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AE9C232428C7EF4DEF3C2181EEE4A6C1 /* Protocols.swift */,
+				F4BF527F880ED015052991E5CABA23FA /* ReactiveUIKit.h */,
+				B9413E17D46E9B3CF5D61133292E9F37 /* UIActivityIndicatorView.swift */,
+				7DEB856FBFD359E43631C211BABE90B9 /* UIApplication.swift */,
+				6D24D54986973BFC63D37331BE833F56 /* UIBarButtonItem.swift */,
+				A10B8DDE61A2B6378E43D52A458F5B9D /* UIBarItem.swift */,
+				B70E0036A83839C8D7C01620BFBAD163 /* UIButton.swift */,
+				93366BC23B9207CFE1A1889FF5C001C8 /* UICollectionView.swift */,
+				06F50915F848A5F08DAA8440B270F678 /* UIControl.swift */,
+				F1C22C9E5DD52EA4A798613505556DEF /* UIDatePicker.swift */,
+				BF70743502CED4C8E1B6BB30339312FF /* UIImageView.swift */,
+				1FC30D9426A8944CA053B6ACAFADAE8B /* UILabel.swift */,
+				B73E794F88B219A720C5557CAD22927A /* UINavigationItem.swift */,
+				1C1481739D0DDD6D953C0D4FD51AA601 /* UIProgressView.swift */,
+				FB2A9E7A6FE8071985D3FCBBD68EB142 /* UIRefreshControl.swift */,
+				5214A5704804ADEAD9B27A1D0F06EB4A /* UISegmentedControl.swift */,
+				F8226D361D36E196DC0A32716A4A1001 /* UISlider.swift */,
+				A0CBCF22EBB031630AB165F7FFA9D85F /* UISwitch.swift */,
+				FDEDCEB594C8038D90458D06D5F4F4CA /* UITableView.swift */,
+				6AA7A7A6166479A0A462B21E339EAF3D /* UITextField.swift */,
+				23F6761F9E9C88D9291C62D41101BD92 /* UITextView.swift */,
+				238DA06F2958B631913C91AFCF3E0A4C /* UIView.swift */,
+				0B920196CCD44F86928DC8A856D396DC /* Support Files */,
+			);
+			path = ReactiveUIKit;
+			sourceTree = "<group>";
+		};
+		B386666364AFE33E1902A0D612CC7AC1 /* ReactiveKit */ = {
+			isa = PBXGroup;
+			children = (
+				3D9DD635D6C5553CE43442274D8133B2 /* CollectionProperty.swift */,
+				D7826DF41BE52C0386ED4B213C927B07 /* Disposable.swift */,
+				71BBE86E8382D3F765EFC47F502BA006 /* Event.swift */,
+				49FB193A60E42438C83229340E949587 /* Foundation.swift */,
+				7C484CCCA700E112EED800BFF1E47583 /* Observer.swift */,
+				93102B819D27D0952DB3D21A9CCBB49C /* Operation.swift */,
+				CACB475C93AE1BF5F90950DEE73346EA /* Property.swift */,
+				FE6365CD43D74B68ABB7E7684C6EF325 /* ProtocolProxy.swift */,
+				A135E388950D37F2F72B8340484C5780 /* RawStream.swift */,
+				917950DC8BAB2E6D7766307C85FF7D72 /* ReactiveKit.h */,
+				6D59B56BD7161CE0DF1030BC1BA520E3 /* Result.swift */,
+				710FCD6AABD0E3251F9098EF61857F0E /* RKProtocolProxyBase.h */,
+				085640E1CCE6F588A32B3BF79E733694 /* RKProtocolProxyBase.m */,
+				FBB4A668A5A8ADBA1173DEE1E98C3B23 /* Stream.swift */,
+				E7E291BC230CD8DBABB1451F74949F5C /* Subjects.swift */,
+				C708ECC77A7BEDC3820A3A20D825577B /* System.swift */,
+				F0A88F7FF66F140730D1AB75FBB91EE2 /* Threading.swift */,
+				F63DB532AE266F14367E47A54B72DF34 /* Support Files */,
+			);
+			path = ReactiveKit;
+			sourceTree = "<group>";
+		};
+		BADE9623C810B01A3FC764C88DF2B570 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C188882BCB07E31B3C252DEA624E9E0 /* Info.plist */,
+				ED7C6F94CD37BE213EE85CE15316B0A5 /* SwiftyTimer.modulemap */,
+				660C970C02ED8BFAA506D6CBE9FE673E /* SwiftyTimer.xcconfig */,
+				D48D415E57F14E50FCB04D7504404D36 /* SwiftyTimer-dummy.m */,
+				312C6F847D0FFCAC4ACB40E366413BBD /* SwiftyTimer-prefix.pch */,
+				6EC622263C7012C9F26A73CF4FCD8709 /* SwiftyTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTimer";
+			sourceTree = "<group>";
+		};
+		C5C16850455080467E106178CB5D6BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790F42342215EF056782976DAD3B63E3 /* Pods_ReactiveKitDemo.framework */,
+				0A6301B502BCF9BEC3A08A33D7C26B5D /* ReactiveKit.framework */,
+				EB69A57106D9824E3FD0D39E9170457C /* ReactiveUIKit.framework */,
+				943151F4B319BD28CBAF96D3899B30A3 /* SwiftyTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB2911322079E71C2545831EB034DE3A /* SwiftyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				69F35425B31AA78E5709F3315E2DF1BB /* SwiftyTimer.swift */,
+				BADE9623C810B01A3FC764C88DF2B570 /* Support Files */,
+			);
+			path = SwiftyTimer;
+			sourceTree = "<group>";
+		};
+		E6227AC105FC3235D4624A1CAB3795EA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4F82E10745D736088B712A6C35321C00 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F63DB532AE266F14367E47A54B72DF34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0C1F21A235AF3111DC978C02AA2262 /* Info.plist */,
+				4BADE64C0676E903724E2D055E0DE8C9 /* ReactiveKit.modulemap */,
+				BB1E25E0C8BD2C8DB8961448E11B6DA6 /* ReactiveKit.xcconfig */,
+				25D18683D021D27194481DCA699684F9 /* ReactiveKit-dummy.m */,
+				4C66F9ED5839758D309C8D898C813B96 /* ReactiveKit-prefix.pch */,
+				D2F3149DC216F05C8944647CAE46E539 /* ReactiveKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReactiveKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C9089FA39B920CA1D88612037E5140B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC477A811EC78786F09E15F6D39471A4 /* ReactiveKit-umbrella.h in Headers */,
+				B6F5905D9EB281DFB1BED2EB91706483 /* ReactiveKit.h in Headers */,
+				876D69A854263AEC798BEABF0E6A1827 /* RKProtocolProxyBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8D2041440B4A49AEEE89EB2B1140E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B91163F08E88AF093F54F17B5B5B343 /* Pods-ReactiveKitDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738AAFF35F4472AD3240E4D8AF16F5F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC091BA4127B4469870997DE46BDE368 /* ReactiveUIKit-umbrella.h in Headers */,
+				38772B11C5709E6E0C91B4C2486FB190 /* ReactiveUIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9AE9C03CA4BBF356D309AF93EF47AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9335C63AF33287AEFCB878A0FB53C7A3 /* SwiftyTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B718361A9007801897723B4726741197 /* ReactiveKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761CF06079495D26C2A5E9C9960D3D82 /* Build configuration list for PBXNativeTarget "ReactiveKit" */;
+			buildPhases = (
+				FF5474505AA51844CE9F18BEF2725E14 /* Sources */,
+				A8732B1FCBE5D3AA1F897C5FF2FBB7D9 /* Frameworks */,
+				5C9089FA39B920CA1D88612037E5140B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveKit;
+			productName = ReactiveKit;
+			productReference = 0A6301B502BCF9BEC3A08A33D7C26B5D /* ReactiveKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCC5C966BD32413E398E3BB004063A11 /* Pods-ReactiveKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEA3D7EB1E78CEFE4A8272E380CA7FF /* Build configuration list for PBXNativeTarget "Pods-ReactiveKitDemo" */;
+			buildPhases = (
+				D33B1D613AE4FE6D373379225211D038 /* Sources */,
+				9021ED48FDC8750D106396AB3257814A /* Frameworks */,
+				6C8D2041440B4A49AEEE89EB2B1140E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D0C0B199379BD2ACB6284AA74C26E4 /* PBXTargetDependency */,
+				67F0F1469620D1D8D8FB02F3F4FBE223 /* PBXTargetDependency */,
+				FD94D2634608BFC3FAD1D891F792C5A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactiveKitDemo";
+			productName = "Pods-ReactiveKitDemo";
+			productReference = 790F42342215EF056782976DAD3B63E3 /* Pods_ReactiveKitDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F30489CDE1348FA7A237C75F6B2B50B0 /* ReactiveUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6139B89768524876B4B1D2B3735A3416 /* Build configuration list for PBXNativeTarget "ReactiveUIKit" */;
+			buildPhases = (
+				ED2F6A8C46A1A0CEE90FB8DED883EDEA /* Sources */,
+				2E58449B14561A53EFFFDBFF34B3AE46 /* Frameworks */,
+				738AAFF35F4472AD3240E4D8AF16F5F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48CB4F6926F35A8864AB8C35D0660F8 /* PBXTargetDependency */,
+			);
+			name = ReactiveUIKit;
+			productName = ReactiveUIKit;
+			productReference = EB69A57106D9824E3FD0D39E9170457C /* ReactiveUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F682E4228993A20C09155349F1D8809C /* SwiftyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D10F33ABFF24F0BCEAD4E29E5C37A8 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */;
+			buildPhases = (
+				CA3C1CA4EE502B2403AD1CE1BA5FF879 /* Sources */,
+				74AF0216E3416A5815A4BB0C4D740B7E /* Frameworks */,
+				DC9AE9C03CA4BBF356D309AF93EF47AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTimer;
+			productName = SwiftyTimer;
+			productReference = 943151F4B319BD28CBAF96D3899B30A3 /* SwiftyTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C5C16850455080467E106178CB5D6BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC5C966BD32413E398E3BB004063A11 /* Pods-ReactiveKitDemo */,
+				B718361A9007801897723B4726741197 /* ReactiveKit */,
+				F30489CDE1348FA7A237C75F6B2B50B0 /* ReactiveUIKit */,
+				F682E4228993A20C09155349F1D8809C /* SwiftyTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3C1CA4EE502B2403AD1CE1BA5FF879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1088F7A22C88DCCF0E90E72747043996 /* SwiftyTimer-dummy.m in Sources */,
+				B1FFA8CA84E472FDBA0C8B38127D75B6 /* SwiftyTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33B1D613AE4FE6D373379225211D038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FF760A9ED09061100E73ED5D58F08C /* Pods-ReactiveKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2F6A8C46A1A0CEE90FB8DED883EDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1498D9260D42661358473C4A77F17FB0 /* Protocols.swift in Sources */,
+				6D9F84E54B4AA389148B31FDBE1556EF /* ReactiveUIKit-dummy.m in Sources */,
+				794D96E4207F1B2F5B17F142267D286E /* UIActivityIndicatorView.swift in Sources */,
+				51EF2C37E7CCBFC5153CD514624AF17E /* UIApplication.swift in Sources */,
+				34D6E1DC4816259619C26EA48E6C2D00 /* UIBarButtonItem.swift in Sources */,
+				CCE5F7535AA04DD7F006EEEC89A0C1BF /* UIBarItem.swift in Sources */,
+				02C6D46F153441877A285AA81DEF74BD /* UIButton.swift in Sources */,
+				5C88E87E393A6C85658FAEF98F9BB29D /* UICollectionView.swift in Sources */,
+				3DCCC325EE1ADE542BC5F9E3DB19052B /* UIControl.swift in Sources */,
+				DCB103A4FAE9DFDED1CE278E380A772E /* UIDatePicker.swift in Sources */,
+				D5E1AF24B4F4DE1F1BECFA0C691EE8FF /* UIImageView.swift in Sources */,
+				50515D2F5B3C18C622A6444E7F0B7392 /* UILabel.swift in Sources */,
+				2CC8C5DF2A674C4A042DE8ECE99F9B18 /* UINavigationItem.swift in Sources */,
+				612552DECECBFFE63ADA25085725DCB8 /* UIProgressView.swift in Sources */,
+				D5505494E16F08126784490A36E8B7A3 /* UIRefreshControl.swift in Sources */,
+				5AAC9BE759E4242F93D3DB26222EF17A /* UISegmentedControl.swift in Sources */,
+				B4F8CAA14A9C103F87BD761F5E63C270 /* UISlider.swift in Sources */,
+				1B2202E45F38C51CA52DCE61F6B5A12E /* UISwitch.swift in Sources */,
+				3AD9B2AE155DD701B6F623E602E9DAA7 /* UITableView.swift in Sources */,
+				38B0FE2AD55104EA981FC8D740467ACD /* UITextField.swift in Sources */,
+				AF330B81A9B035E6134FB33C3327CF18 /* UITextView.swift in Sources */,
+				D499A8F168511D31AAF9867B9DB7FDB5 /* UIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5474505AA51844CE9F18BEF2725E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEE472B0F0A759B6773DE1F3CA7F8F4 /* CollectionProperty.swift in Sources */,
+				D5C67E8D9EBA2A4FA6581A595FF60863 /* Disposable.swift in Sources */,
+				8CEAB43B9222B57E324C6206FB2DB8B5 /* Event.swift in Sources */,
+				5E9BD5A7FED4F3C69657CD36416627E4 /* Foundation.swift in Sources */,
+				608B8613699B02A8C01A6401F7CD237A /* Observer.swift in Sources */,
+				471427CBC209F58CB803E39ADD33CDB6 /* Operation.swift in Sources */,
+				D222B76425173B0BDF92487BE01107B4 /* Property.swift in Sources */,
+				4823E11AB6D087B8881D34B5F941E49C /* ProtocolProxy.swift in Sources */,
+				1DC6309464B4ECD707DE50F7384BC7D2 /* RawStream.swift in Sources */,
+				663A6E9ABA7334201C1FA78046BABA0A /* ReactiveKit-dummy.m in Sources */,
+				BA3AF6DE5E690832D59CADF354814B8F /* Result.swift in Sources */,
+				4BBF6303F94B620CF01E72A9A86A60DB /* RKProtocolProxyBase.m in Sources */,
+				A0EC54462B0812350C6436AE9379E969 /* Stream.swift in Sources */,
+				AB15EBC89FE699866634F05457844B0C /* Subjects.swift in Sources */,
+				4849F4348D8F5DA0F1D8A0191978A7E9 /* System.swift in Sources */,
+				EB3074848173A39D3AC68891700C7B08 /* Threading.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67F0F1469620D1D8D8FB02F3F4FBE223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveUIKit;
+			target = F30489CDE1348FA7A237C75F6B2B50B0 /* ReactiveUIKit */;
+			targetProxy = 905B4F1E04C5201C62573F2805E37514 /* PBXContainerItemProxy */;
+		};
+		98D0C0B199379BD2ACB6284AA74C26E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveKit;
+			target = B718361A9007801897723B4726741197 /* ReactiveKit */;
+			targetProxy = B2892AF6DB930DF76B72A4227803C891 /* PBXContainerItemProxy */;
+		};
+		A48CB4F6926F35A8864AB8C35D0660F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveKit;
+			target = B718361A9007801897723B4726741197 /* ReactiveKit */;
+			targetProxy = 4C1BED27752E909792370C6CC25940C4 /* PBXContainerItemProxy */;
+		};
+		FD94D2634608BFC3FAD1D891F792C5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTimer;
+			target = F682E4228993A20C09155349F1D8809C /* SwiftyTimer */;
+			targetProxy = A72DC6CA298EBDFDE753AA4671DA8136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C5409BE88B4B9881EBE27D6E3F44A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1E25E0C8BD2C8DB8961448E11B6DA6 /* ReactiveKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReactiveKit/ReactiveKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactiveKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactiveKit/ReactiveKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReactiveKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		318CC9FED991D4AF392F8F99D41A625C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660C970C02ED8BFAA506D6CBE9FE673E /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		891845BFABC08DCE5EECF3922F565179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3262B06F518AB539683F9E7A9F325764 /* Pods-ReactiveKitDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactiveKitDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactiveKitDemo/Pods-ReactiveKitDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReactiveKitDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B07341DEADF56180BD99DDA73C362B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2999C7E27D749D968E02F02A64F1D91A /* ReactiveUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReactiveUIKit/ReactiveUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactiveUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactiveUIKit/ReactiveUIKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ReactiveUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3A7F3EF70C73AD912A2FAFE8806A392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1E25E0C8BD2C8DB8961448E11B6DA6 /* ReactiveKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReactiveKit/ReactiveKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactiveKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactiveKit/ReactiveKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ReactiveKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0C26978AA46350A583CB5F5C2A8228A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660C970C02ED8BFAA506D6CBE9FE673E /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE0CFCA4311150F221C15C12296D3A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E1E13EE8C647B9DE3AA067D0997783 /* Pods-ReactiveKitDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactiveKitDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactiveKitDemo/Pods-ReactiveKitDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReactiveKitDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F29873742EF8218E7000CE4FF443F02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2999C7E27D749D968E02F02A64F1D91A /* ReactiveUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReactiveUIKit/ReactiveUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactiveUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactiveUIKit/ReactiveUIKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReactiveUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6139B89768524876B4B1D2B3735A3416 /* Build configuration list for PBXNativeTarget "ReactiveUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B07341DEADF56180BD99DDA73C362B9 /* Debug */,
+				F29873742EF8218E7000CE4FF443F02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D10F33ABFF24F0BCEAD4E29E5C37A8 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C26978AA46350A583CB5F5C2A8228A /* Debug */,
+				318CC9FED991D4AF392F8F99D41A625C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761CF06079495D26C2A5E9C9960D3D82 /* Build configuration list for PBXNativeTarget "ReactiveKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A7F3EF70C73AD912A2FAFE8806A392 /* Debug */,
+				1C5409BE88B4B9881EBE27D6E3F44A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEA3D7EB1E78CEFE4A8272E380CA7FF /* Build configuration list for PBXNativeTarget "Pods-ReactiveKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891845BFABC08DCE5EECF3922F565179 /* Debug */,
+				EE0CFCA4311150F221C15C12296D3A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
