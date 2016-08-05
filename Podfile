@@ -6,7 +6,6 @@ inhibit_all_warnings!
 target 'ReactiveKitDemo' do
     pod 'ReactiveKit', '~> 2.1'
     pod 'ReactiveUIKit', '~> 2.0'
-    pod 'SwiftyTimer', '~> 1.2.0'
 end
 
 # Prevents embedding swift libraries in every embedded framework / module

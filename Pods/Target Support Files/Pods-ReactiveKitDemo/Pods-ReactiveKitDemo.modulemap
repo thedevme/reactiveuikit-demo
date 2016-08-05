@@ -1,6 +1,0 @@
-framework module Pods_ReactiveKitDemo {
-  umbrella header "Pods-ReactiveKitDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}
