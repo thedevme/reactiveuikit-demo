@@ -7,19 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27737145EF7A5769C793F72D /* Pods_ReactiveKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5DA9EB1C2E4FE219561228 /* Pods_ReactiveKitDemo.framework */; };
 		2BEB21BC1D3EFADD00EB62F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB21BB1D3EFADD00EB62F3 /* AppDelegate.swift */; };
 		2BEB21BE1D3EFADD00EB62F3 /* BasicExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB21BD1D3EFADD00EB62F3 /* BasicExampleController.swift */; };
 		2BEB21C01D3EFADD00EB62F3 /* TableExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB21BF1D3EFADD00EB62F3 /* TableExampleController.swift */; };
 		2BEB21C31D3EFADD00EB62F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB21C11D3EFADD00EB62F3 /* Main.storyboard */; };
 		2BEB21C51D3EFADD00EB62F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB21C41D3EFADD00EB62F3 /* Assets.xcassets */; };
 		2BEB21C81D3EFADD00EB62F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB21C61D3EFADD00EB62F3 /* LaunchScreen.storyboard */; };
-		ADCE1297E8067872B579E0E5 /* Pods_App_ReactiveKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CBED4093DA7D6CDBB7D777 /* Pods_App_ReactiveKitDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BC782E1F6801543EB7E7A9F /* Pods-ReactiveKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveKitDemo/Pods-ReactiveKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		0EF3516C35B7C5420FEF59A7 /* Pods-App-ReactiveKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-ReactiveKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App-ReactiveKitDemo/Pods-App-ReactiveKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2BEB21B81D3EFADD00EB62F3 /* ReactiveKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEB21BB1D3EFADD00EB62F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BEB21BD1D3EFADD00EB62F3 /* BasicExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicExampleController.swift; sourceTree = "<group>"; };
@@ -28,10 +24,6 @@
 		2BEB21C41D3EFADD00EB62F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BEB21C71D3EFADD00EB62F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BEB21C91D3EFADD00EB62F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52A40418EF9B3EC3B8C5786B /* Pods-ReactiveKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveKitDemo/Pods-ReactiveKitDemo.release.xcconfig"; sourceTree = "<group>"; };
-		60CBED4093DA7D6CDBB7D777 /* Pods_App_ReactiveKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_ReactiveKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B5DA9EB1C2E4FE219561228 /* Pods_ReactiveKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8968D6A0780EE0497AF0E00A /* Pods-App-ReactiveKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-ReactiveKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-App-ReactiveKitDemo/Pods-App-ReactiveKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADCE1297E8067872B579E0E5 /* Pods_App_ReactiveKitDemo.framework in Frameworks */,
-				27737145EF7A5769C793F72D /* Pods_ReactiveKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,10 +40,6 @@
 		12BAC251CDB8643F6B77ED10 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0EF3516C35B7C5420FEF59A7 /* Pods-App-ReactiveKitDemo.debug.xcconfig */,
-				8968D6A0780EE0497AF0E00A /* Pods-App-ReactiveKitDemo.release.xcconfig */,
-				0BC782E1F6801543EB7E7A9F /* Pods-ReactiveKitDemo.debug.xcconfig */,
-				52A40418EF9B3EC3B8C5786B /* Pods-ReactiveKitDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -93,8 +79,6 @@
 		4C730A5E1F2A7D49227FF6BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60CBED4093DA7D6CDBB7D777 /* Pods_App_ReactiveKitDemo.framework */,
-				6B5DA9EB1C2E4FE219561228 /* Pods_ReactiveKitDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -336,7 +320,6 @@
 		};
 		2BEB21CD1D3EFADD00EB62F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BC782E1F6801543EB7E7A9F /* Pods-ReactiveKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactiveKitDemo/Info.plist;
@@ -348,7 +331,6 @@
 		};
 		2BEB21CE1D3EFADD00EB62F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52A40418EF9B3EC3B8C5786B /* Pods-ReactiveKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactiveKitDemo/Info.plist;
